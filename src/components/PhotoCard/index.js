@@ -14,7 +14,7 @@ export const PhotoCard = ({ id, likes = 0, src = DEFAULT_IMAGE }) => {
   const Icon = liked ? MdFavorite : MdFavoriteBorder
 
   return (
-    <Article ref={element}>
+     <Article ref={element}>
       {
         show && <Fragment>
           <a href={`/detail/${id}`}>
